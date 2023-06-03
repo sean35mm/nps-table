@@ -12,6 +12,8 @@
 - **React 18**
   - new server component paradigm (natural fetching)
 - **TypeScript**
+- **Vercel**
+  - continuous deployment
 
 ## Description
 
