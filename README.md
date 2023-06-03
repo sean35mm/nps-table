@@ -2,7 +2,7 @@
 
 > **NOTE:** The data pulled from the API provided is pretty outdated so there is only 1 result for dates ranging the past 2 weeks; therefore, I added filter date selector where you will be able to filter through data for the past 2 weeks, 30 days, and 60 days.
 
-### ✨ [Click Here for Demo](https://nps-table.vercel.com)
+### ✨ [Click Here for Demo](https://nps-table.vercel.app)
 
 ### Tech Stack
 
