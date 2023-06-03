@@ -1,13 +1,21 @@
 import { getData } from '@/lib/getData'
-import DataTable from './components/DataTable'
+import Table from './components/Table'
 
 export default async function Home() {
 	const data = await getData()
-	console.log(JSON.stringify(data, null, '\t'))
+
 	return (
-		<div>
-			<h1 className='text-2xl'>Welcome to Sean Gil&apos;s Table Demo</h1>
-			<DataTable data={data} />
+		<div className='flex flex-col justify-center items-center p-4 bg-black h-screen'>
+			<h1 className='text-2xl text-white my-4'>
+				Welcome to Sean Gil&apos;s Table Demo
+			</h1>
+			<a
+				href='/'
+				className='underline text-white text-md hover:text-blue-500 my-4'
+			>
+				Click Here for Source Code and Documentation
+			</a>
+			<Table data={data} />
 		</div>
 	)
 }

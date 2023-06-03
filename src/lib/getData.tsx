@@ -16,6 +16,7 @@ interface TimeEntry {
 	projectId: string
 	description: string
 	timeInterval: {
+		start: string
 		duration: string
 	}
 }
