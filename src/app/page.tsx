@@ -10,8 +10,10 @@ export default async function Home() {
 				Welcome to Sean Gil&apos;s Table Demo
 			</h1>
 			<a
-				href='/'
+				href='https://github.com/sean35mm/nps-table'
 				className='underline text-white text-md hover:text-blue-500 my-4'
+				target='_blank'
+				rel='noopener'
 			>
 				Click Here for Source Code and Documentation
 			</a>
