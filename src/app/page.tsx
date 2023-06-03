@@ -5,7 +5,7 @@ export default async function Home() {
 	const data = await getData()
 
 	return (
-		<div className='flex flex-col justify-center items-center p-4 bg-black h-screen'>
+		<div className='flex flex-col justify-center items-center p-4 bg-black h-full'>
 			<h1 className='text-2xl text-white my-4'>
 				Welcome to Sean Gil&apos;s Table Demo
 			</h1>
