@@ -113,7 +113,7 @@ const Table: React.FC<TableProps> = ({ data }) => {
 
 	return (
 		<>
-			<table className='w-3/4 table-auto text-sm text-left text-gray-500 dark:text-gray-400'>
+			<table className='w-3/4 max-h-96 table-auto text-sm text-left text-gray-500 dark:text-gray-400'>
 				<caption className='p-5 text-lg font-semibold text-left text-gray-900 bg-white dark:text-white dark:bg-gray-800'>
 					<div className='m-2'>
 						<label className='block mb-2 text-sm font-medium text-gray-900 dark:text-white'>
