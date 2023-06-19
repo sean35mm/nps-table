@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to my Clockify Table Widget</h1>
+<h1 align="center">Clockify Table Widget</h1>
 
 > **NOTE:** The data pulled from the API provided is pretty outdated so there is only 1 result for dates ranging the past 2 weeks; therefore, I added filter date selector where you will be able to filter through data for the past 2 weeks, 30 days, and 60 days.
 
@@ -13,11 +13,11 @@
   - new server component paradigm (natural fetching)
 - **TypeScript**
 - **Vercel**
-  - continuous deployment
+  - CI/CD
 
 ## Description
 
-This is a comprehensive and filterable data table indtended to be used in conjunction with the Clockify API. Use selectors to filter either by employee name, date, or both! The returned data is paginated to show 10 results per page.
+This is a comprehensive and filterable data table indtended to be used in conjunction with the Clockify API. Use selectors to filter either by employee name, date, or both! The returned data is paginated to show 10 results per page. The table is also responsive and has vertical scroll for all devices.
 
 _Want to run this locally?_
 
